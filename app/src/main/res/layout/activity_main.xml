@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".MainActivity">
+<EditText
+    android:id="@+id/input"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:hint="@string/input_hint"
+    android:inputType="number"
+    android:layout_gravity="center"/>
+
+<RadioGroup
+    android:id="@+id/type"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/type_fib_jr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:checked="true"
+        android:text="@string/type_fib_jr" />
+
+    <RadioButton
+        android:id="@+id/type_fib_ji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/type_fib_ji" />
+
+    <RadioButton
+        android:id="@+id/type_fib_nr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/type_fib_nr" />
+
+    <RadioButton
+        android:id="@+id/type_fib_ni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/type_fib_ni" />
+</RadioGroup>
+
+<Button
+    android:id="@+id/button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/button_text" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:textSize="20sp" />
+</RelativeLayout>
+</LinearLayout>

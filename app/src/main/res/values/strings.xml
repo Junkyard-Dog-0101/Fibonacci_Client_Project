@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fibonacci_Client_Project</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="input_hint">Enter N</string>
+    <string name="button_text">Get Fibonacci Result</string>
+    <string name="progress_text">Calculating</string>
+    <string name="fib_error">Failed to get Fibonacci result</string>
+    <string name="type_fib_jr">fibJR</string>
+    <string name="type_fib_ji">fibJI</string>
+    <string name="type_fib_nr">fibNR</string>
+    <string name="type_fib_ni">fibNI</string>
+
+</resources>
